@@ -1,0 +1,161 @@
+{
+  "selectedTemplate": 2,
+  "headings": {
+    "skills": "Skills",
+    "awards": "Achievements",
+    "education": "Education",
+    "work": "Work Experience",
+    "projects": "Links"
+  },
+  "basics": {
+    "name": "Peter Cunha",
+    "email": "peter@alumni.purdue.edu",
+    "phone": "(310) 818-1425",
+    "location": {
+      "address": "Los Angeles, CA"
+    }
+  },
+  "education": [
+    {
+      "institution": "Purdue University",
+      "area": "Computer Science",
+      "studyType": "BS",
+      "endDate": "2020",
+      "gpa": "3.2",
+      "startDate": "2016",
+      "location": "West Lafayette, IN"
+    }
+  ],
+  "work": [
+    {
+      "company": "Northrop Grumman",
+      "website": "",
+      "startDate": "2015",
+      "endDate": "2020",
+      "highlights": [
+        "Worked on the Kestrel Ground Systems team to built a fully featured web dashboard for visualizing live mission data. Live satellite telemetry graphs, command & control capabilities, and an authentication & user management system. Node.js, MongoDB, D3.js, Angular. (2019)",
+        "Improved on satellite ground system software by adding load balancing, service discovery, and fault tolerance in C++.  Built a Web UI for monitoring and controlling satellite ground systems using Node.js and Angular. (2018)",
+        "Worked with a team of talented developers to build a satellite ground system in C++ and Java. Capabilities included decoding RF signals from long-range antennas, translating binary streams into meaningful data, and distributing that data to many systems using ActiveMQ. (2017)",
+        "Developed and maintained an HR software tool for managing incoming and existing employees. Added features, fixed bugs, and wrote documentation. PHP, MySQL, JavaScript. (2016)"
+      ],
+      "position": "Software Engineer",
+      "location": "Space Park, CA"
+    },
+    {
+      "highlights": [
+        "Built network stress testing tools to simulate real world DDoS attacks. We used this technology to help companies prepare for large-scale cyber threats.."
+      ],
+      "company": "BitMitigate",
+      "position": "Network Security Engineer",
+      "startDate": "2014",
+      "endDate": "2015",
+      "location": "Los Angeles, CA"
+    },
+    {
+      "highlights": [
+        "Created custom software solutions for our customers. These solutions included cybersecurity tools, fully-featured websites, cloud applications, and custom automation tools. Primarily used MySQL, Java, Go (for backend software) or Node.js, React, and MongoDB (web development)."
+      ],
+      "position": "Software Engineer (Remote)",
+      "company": "Wintermute Technology",
+      "location": "Torrance, CA",
+      "startDate": "2014",
+      "endDate": "Present"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "Java",
+        "C++",
+        "Javascript",
+        "Go",
+        "Python",
+        "Angular",
+        "React",
+        "Node.js",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "keywords": [
+        "Docker, Apache, Nginx, Jenkins, MySQL, MongoDB, Elasticsearch"
+      ],
+      "name": "Technologies"
+    },
+    {
+      "keywords": [
+        "Amazon Web Services",
+        "Google Cloud Platform",
+        "Digital Ocean"
+      ],
+      "name": "Cloud"
+    },
+    {
+      "keywords": [
+        "Agile",
+        "CI/CD",
+        "Design Patterns",
+        "Git"
+      ],
+      "name": "Other"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Github",
+      "description": "My open source projects",
+      "url": "https://github.com/petercunha",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "keywords": [
+        ""
+      ],
+      "name": "Leetcode",
+      "description": "My competetive programming profile",
+      "url": "https://leetcode.com/sunlit"
+    },
+    {
+      "keywords": [
+        ""
+      ],
+      "name": "Personal Website",
+      "description": "My personal website with more info about me",
+      "url": "https://petercunha.com"
+    }
+  ],
+  "awards": [
+    {
+      "date": "2016",
+      "title": "Cyberpatriot National Finalist",
+      "awarder": "U.S. Air Force",
+      "summary": "Team ranked 6th place in the nation for Cyberpatriot, a national cyber defense competition."
+    },
+    {
+      "title": "Amazon.com Security Researcher",
+      "date": "2018",
+      "summary": "Discovered a serious vulnerability in Amazon.com's web interface, allowing for the account theft of anyone who clicked on a malicious link.",
+      "awarder": "Amazon.com, Inc."
+    },
+    {
+      "title": "Cryptography Certification",
+      "awarder": "Stanford University",
+      "date": "2016",
+      "summary": "Completed Stanford University's online Cryptography program through Coursera."
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
