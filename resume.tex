@@ -1,0 +1,144 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage[margin=1in]{geometry}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Peter Cunha}}\\
+	Los Angeles, CA $\cdot$ peter@alumni.purdue.edu $\cdot$ (310) 818-1425\\
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{Purdue University}\hfill West Lafayette, IN\\
+BS Computer Science \textit{GPA: 3.2} \hfill 2016 - 2020\\
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Work Experience}
+\vspace{1mm}
+
+\textbf{Northrop Grumman} \hfill Space Park, CA\\
+\textit{Software Engineer} \hfill 2015 | 2019\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Worked on the Kestrel Ground Systems team to built a fully featured web dashboard for visualizing live mission data. Live satellite telemetry graphs, command \& control capabilities, and an authentication \& user management system. Node.js, MongoDB, D3.js, Angular. (2019)
+	\item Improved on satellite ground system software by adding load balancing, service discovery, and fault tolerance in C++. Built a Web UI for monitoring and controlling satellite ground systems using Node.js and Angular. (2018)
+	\item Worked with a team of talented developers to build a satellite ground system in C++ and Java. Capabilities included decoding RF signals from long-range antennas, translating binary streams into meaningful data, and distributing that data to many systems using ActiveMQ. (2017)
+	\item Developed and maintained an HR software tool for managing incoming and existing employees. Added features, fixed bugs, and wrote documentation. PHP, MySQL, JavaScript. (2016)
+\end{itemize}
+\textbf{BitMitigate} \hfill Los Angeles, CA\\
+\textit{Network Security Engineer} \hfill 2014 | 2015\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Built network stress testing tools to simulate real world DDoS attacks. We used this technology to help companies prepare for large-scale cyber threats..
+\end{itemize}
+\textbf{Wintermute Technology} \hfill Torrance, CA\\
+\textit{Software Engineer (Remote)} \hfill 2014 | Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Created custom software solutions for our customers. These solutions included cybersecurity tools, fully-featured websites, cloud applications, and custom automation tools. Primarily used MySQL, Java, Go (for backend software) or Node.js, React, and MongoDB (web development).
+\end{itemize}
+
+\header{Skills}
+\begin{tabular}{ l l }
+	Programming Languages: & Java, C++, Javascript, Go, Python, Angular, React, Node.js, PHP, CSS \\
+	Technologies:          & Docker, Apache, Nginx, Jenkins, MySQL, MongoDB, Elasticsearch        \\
+	Cloud:                 & Amazon Web Services, Google Cloud Platform, Digital Ocean            \\
+	Other:                 & Agile, CI/CD, Design Patterns, Git                                   \\
+\end{tabular}
+\vspace{2mm}
+
+\header{Links}
+{\textbf{Github}}\hfill https://github.com/petercunha\\
+My open source projects\\
+\vspace*{2mm}
+{\textbf{Leetcode}}\hfill https://leetcode.com/sunlit\\
+My competetive programming profile\\
+\vspace*{2mm}
+{\textbf{Personal Website}}\hfill https://petercunha.com\\
+My personal website with more info about me\\
+\vspace*{2mm}
+
+\header{Achievements}
+\textbf{Cyberpatriot National Finalist} \hfill U.S. Air Force\\
+Team ranked 6th place in the nation for Cyberpatriot, a national cyber defense competition.\\
+\vspace*{2mm}
+\textbf{Amazon.com Security Researcher} \hfill Amazon.com, Inc.\\
+Discovered a serious vulnerability in Amazon.com\textquotesingle{}s web interface, allowing for the account theft of anyone who clicked on a malicious link.\\
+\vspace*{2mm}
+\textbf{Cryptography Certification} \hfill Stanford University\\
+Completed Stanford University\textquotesingle{}s online Cryptography program through Coursera.\\
+\vspace*{2mm}
+
+\ 
+\end{document}
