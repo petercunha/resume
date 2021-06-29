@@ -10,7 +10,6 @@
   "basics": {
     "name": "Peter Cunha",
     "email": "peter@alumni.purdue.edu",
-    "phone": "(310) 818-1425",
     "location": {
       "address": "Los Angeles, CA"
     }
@@ -19,14 +18,22 @@
     {
       "institution": "Purdue University",
       "area": "Computer Science",
-      "studyType": "BS",
-      "endDate": "2020",
-      "gpa": "3.2",
+      "endDate": "2021",
       "startDate": "2016",
       "location": "West Lafayette, IN"
     }
   ],
   "work": [
+    {
+      "highlights": [
+        "Developed backend infrastructure for HBO MAX. Improved application reliability and uptime, created metrics monitoring dashboards, wrote backend code. Go, Kubernetes, Kafka, Prometheus, Grafana"
+      ],
+      "company": "AT&T",
+      "position": "Software Engineer",
+      "location": "El Segundo, CA",
+      "startDate": "2019",
+      "endDate": "2020"
+    },
     {
       "company": "Northrop Grumman",
       "website": "",
@@ -50,16 +57,6 @@
       "startDate": "2014",
       "endDate": "2015",
       "location": "Los Angeles, CA"
-    },
-    {
-      "highlights": [
-        "Created custom software solutions for our customers. These solutions included cybersecurity tools, fully-featured websites, cloud applications, and custom automation tools. Primarily used MySQL, Java, Go (for backend software) or Node.js, React, and MongoDB (web development)."
-      ],
-      "position": "Software Engineer (Remote)",
-      "company": "Wintermute Technology",
-      "location": "Torrance, CA",
-      "startDate": "2014",
-      "endDate": "Present"
     }
   ],
   "skills": [
@@ -81,7 +78,7 @@
     },
     {
       "keywords": [
-        "Docker, Apache, Nginx, Jenkins, MySQL, MongoDB, Elasticsearch"
+        "Docker, Kubernetes, Apache, Nginx, Jenkins, PostgreSQL, MongoDB"
       ],
       "name": "Technologies"
     },
@@ -137,7 +134,7 @@
     },
     {
       "title": "Amazon.com Security Researcher",
-      "summary": "Discovered a serious vulnerability in Amazon.com's web interface, allowing for the account theft of anyone who clicked on a malicious link.",
+      "summary": "Discovered a serious vulnerability in Amazon.com's web interface, allowing for the account theft of anyone who clicked on a malicious link. Bug was reported to Amazon so it could be remediated.",
       "awarder": "Amazon.com, Inc."
     },
     {
