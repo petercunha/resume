@@ -1,0 +1,146 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "skills": "Skills",
+    "awards": "Achievements",
+    "education": "Education",
+    "work": "Work Experience",
+    "projects": "Links"
+  },
+  "basics": {
+    "name": "Peter Cunha",
+    "email": "peter@alumni.purdue.edu",
+    "location": {
+      "address": "Los Angeles, CA"
+    }
+  },
+  "education": [
+    {
+      "institution": "Purdue University",
+      "area": "Computer Science",
+      "endDate": "2021",
+      "startDate": "2016",
+      "location": "West Lafayette, IN",
+      "studyType": "Bachelor of Science in"
+    }
+  ],
+  "work": [
+    {
+      "highlights": [
+        "Developed backend infrastructure for HBO MAX. Improved application reliability and uptime, created metrics monitoring dashboards, wrote backend code. Go, Kubernetes, Kafka, Prometheus, Grafana"
+      ],
+      "company": "AT&T",
+      "position": "Software Engineer",
+      "location": "El Segundo, CA",
+      "startDate": "2019",
+      "endDate": "2020"
+    },
+    {
+      "company": "Northrop Grumman",
+      "website": "",
+      "startDate": "2015",
+      "endDate": "2019",
+      "highlights": [
+        "Worked on the Kestrel Ground Systems team to built a fully featured web dashboard for visualizing live mission data. Live satellite telemetry graphs, command & control capabilities, and an authentication & user management system. Node.js, MongoDB, D3.js, Angular. (2019)",
+        "Improved on satellite ground system software by adding load balancing, service discovery, and fault tolerance in C++.  Built a Web UI for monitoring and controlling satellite ground systems using Node.js and Angular. (2018)",
+        "Worked with a team of talented developers to build a satellite ground system in C++ and Java. Capabilities included decoding RF signals from long-range antennas, translating binary streams into meaningful data, and distributing that data to many systems using ActiveMQ. (2017)",
+        "Developed and maintained an HR software tool for managing incoming and existing employees. Added features, fixed bugs, and wrote documentation. PHP, MySQL, JavaScript. (2016)"
+      ],
+      "position": "Software Engineer",
+      "location": "Space Park, CA"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "Java",
+        "C++",
+        "Javascript",
+        "Go",
+        "Python",
+        "Angular",
+        "React",
+        "Node.js",
+        "PHP",
+        "CSS"
+      ]
+    },
+    {
+      "keywords": [
+        "Docker, Kubernetes, Apache, Nginx, Jenkins, PostgreSQL, MongoDB"
+      ],
+      "name": "Technologies"
+    },
+    {
+      "keywords": [
+        "Amazon Web Services",
+        "Google Cloud Platform",
+        "Digital Ocean"
+      ],
+      "name": "Cloud"
+    },
+    {
+      "keywords": [
+        "Agile",
+        "CI/CD",
+        "Design Patterns",
+        "Git"
+      ],
+      "name": "Other"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Github",
+      "description": "My open source projects",
+      "url": "https://github.com/petercunha",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "keywords": [
+        ""
+      ],
+      "name": "Leetcode",
+      "description": "My competetive programming profile",
+      "url": "https://leetcode.com/sunlit"
+    },
+    {
+      "keywords": [
+        ""
+      ],
+      "name": "Personal Website",
+      "description": "My personal website with more info about me",
+      "url": "https://petercunha.com"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Cyberpatriot National Finalist",
+      "awarder": "U.S. Air Force",
+      "summary": "Team ranked 6th place in the nation for Cyberpatriot, a national cyber defense competition."
+    },
+    {
+      "title": "Amazon.com Security Researcher",
+      "summary": "Discovered a serious vulnerability in Amazon.com's web interface, allowing for the account theft of anyone who clicked on a malicious link. Bug was reported to Amazon so it could be remediated.",
+      "awarder": "Amazon.com, Inc."
+    },
+    {
+      "title": "Cryptography Certification",
+      "awarder": "Stanford University",
+      "summary": "Completed Stanford University's online Cryptography program through Coursera."
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
