@@ -18,9 +18,10 @@
     {
       "institution": "Purdue University",
       "area": "Computer Science",
-      "endDate": "2021",
-      "startDate": "2016",
-      "location": "West Lafayette, IN"
+      "endDate": "2022",
+      "location": "West Lafayette, IN",
+      "studyType": "Bachelor of Science in",
+      "startDate": "2016"
     }
   ],
   "work": [
@@ -47,16 +48,6 @@
       ],
       "position": "Software Engineer",
       "location": "Space Park, CA"
-    },
-    {
-      "highlights": [
-        "Built network stress testing tools to simulate real world DDoS attacks. We used this technology to help companies prepare for large-scale cyber threats.."
-      ],
-      "company": "BitMitigate",
-      "position": "Network Security Engineer",
-      "startDate": "2014",
-      "endDate": "2015",
-      "location": "Los Angeles, CA"
     }
   ],
   "skills": [
