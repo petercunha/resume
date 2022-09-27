@@ -1,0 +1,131 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "skills": "Skills",
+    "awards": "Achievements",
+    "education": "Education",
+    "work": "Work Experience",
+    "projects": "Links"
+  },
+  "basics": {
+    "name": "Peter Cunha",
+    "email": "petercunha8@gmail.com",
+    "location": {
+      "address": "Los Angeles, CA"
+    }
+  },
+  "education": [
+    {
+      "institution": "Purdue University",
+      "area": "Computer Science",
+      "endDate": "2023",
+      "location": "West Lafayette, IN",
+      "studyType": "Pursuing B.S. in",
+      "startDate": "2018"
+    },
+    {
+      "institution": "Palos Verdes Peninsula High School",
+      "location": "Palos Verdes, CA",
+      "studyType": "High School Diploma",
+      "endDate": "2016",
+      "startDate": "2012"
+    }
+  ],
+  "work": [
+    {
+      "highlights": [
+        "Wrote code for the HBO MAX web interface. Preformed service reliability monitoring to ensure uptime of essential services."
+      ],
+      "company": "AT&T",
+      "position": "Software Developer Intern",
+      "location": "El Segundo, CA",
+      "startDate": "2019",
+      "endDate": "2020"
+    },
+    {
+      "company": "Northrop Grumman",
+      "website": "",
+      "startDate": "2015",
+      "endDate": "2019",
+      "highlights": [
+        "Worked with a team of software engineers to build a web interface for monitoring mission data."
+      ],
+      "position": "Mission Systems Intern",
+      "location": "Space Park, CA"
+    },
+    {
+      "highlights": [
+        "Volunteered at multiple public service events, such as beach cleanups, preparing food for homeless, and setting up & taking down tents, chairs, and tables at city-run events."
+      ],
+      "company": "Los Hermanos Volunteer Group",
+      "position": "Volunteer",
+      "location": "Torrance, CA",
+      "startDate": "2016"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Service Skills",
+      "level": "",
+      "keywords": [
+        "Working in Teams, Interacting with Customers"
+      ]
+    },
+    {
+      "keywords": [
+        "Hardworking, Consistent, Can-do Attitude"
+      ],
+      "name": "Qualities"
+    },
+    {
+      "keywords": [
+        "Monday through Sunday, 9 AM to 7 PM, Part-time position desired"
+      ],
+      "name": "Availability"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Linkedin Profile",
+      "description": "Online resume",
+      "url": "https://www.linkedin.com/in/petercunha",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "keywords": [
+        ""
+      ],
+      "name": "Personal Website",
+      "description": "My personal website with more info about me",
+      "url": "https://petercunha.com"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Science Olympiad Contender",
+      "awarder": "National Science Olympiad",
+      "summary": "High school team competed in statewide STEM competition to design a remote controlled aircraft."
+    },
+    {
+      "title": "Cryptography Certification",
+      "summary": "Completed Stanford University's online Cryptography program through Coursera.",
+      "awarder": "Stanford University"
+    },
+    {
+      "title": "Community Volunteer Work",
+      "awarder": "Los Hermanos Navy Blue",
+      "summary": "Preformed over 125 hours of community service in the Los Angeles area."
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
